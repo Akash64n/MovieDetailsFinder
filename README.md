@@ -1,5 +1,6 @@
 # movieDetailsFinder
 
 
-#for building
-maven test
+#for building use
+
+-mvn test
