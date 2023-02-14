@@ -21,7 +21,6 @@ public class ImdbTest extends ImdbSearch {
 	  
 	  @Test
 	  public void imdbMovieDetailsTest() throws InterruptedException {
-		  
 		   String movieName="Pushpa";
 		   String details=ImdbSearch.imdbMovieDetails(driver, movieName);
 		   String[] wikiDetails = details.split(":");
@@ -30,7 +29,6 @@ public class ImdbTest extends ImdbSearch {
 		   
 		   assertEquals(Country,"India");
 		   assertEquals(Date, "December 17, 2021 (United States)");		
-		  
 	  }
 	
 	  @AfterMethod
