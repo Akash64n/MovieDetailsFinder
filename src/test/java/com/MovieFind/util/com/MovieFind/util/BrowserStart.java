@@ -18,7 +18,6 @@ public class BrowserStart {
 		}
 		else if(name.equalsIgnoreCase("firefox"))
 		{
-			System.setProperty("webdriver.gecko.driver", ".\\drivers\\geckodriver.exe");
 			driver=new FirefoxDriver();
 		}
 		driver.manage().window().maximize();
