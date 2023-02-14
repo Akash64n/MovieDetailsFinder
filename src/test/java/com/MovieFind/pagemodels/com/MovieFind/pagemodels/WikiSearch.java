@@ -21,10 +21,8 @@ public class WikiSearch {
     												+ "//div[text()='Release date']/../following-sibling::td//div//li"));
     			
     			String date=releaseDate.getText();
-
     			WebElement Country=driver.findElement(By.xpath("//table[@class='infobox vevent']//th[text()='Country']"
     												+ "//following-sibling::td"));
-
     			String count=Country.getText();
 				return count+":"+date;   		
     		
